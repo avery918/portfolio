@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevRyan Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo" id="page-logo">
+            <a href="#home"><img src="img/logo.png" alt=""></a>
+            
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav--list">
+                <li class="nav--item"><a href="#home" class="nav--link">Home</a></li>
+                <li class="nav--item"><a href="#services" class="nav--link">My Services</a></li>
+                <li class="nav--item"><a href="#about" class="nav--link">About Me</a></li>
+                <li class="nav--item"><a href="#work" class="nav--link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section--title section--title--intro">
+            Hi, I am <strong>Ryan Boyd</strong>
+        </h1>
+        <p class="section--subtitle section--subtitle--intro">Front-End Developer </p>
+        <img src="img/rjb.png" alt="a picture of Ryan smiling" class="intro--img">
+    </section>
+
+
+
+    <!-- Services -->
+    <section class="my-services" id="services">
+        <h2 class="section--title section--title--services">Skills & Certifications</h2>
+        <div class="services">
+
+            <div class="service" >
+                <h3>Skills</h3>
+                <ul class="service-list">
+                    <li class="skills-li">HTML</li>
+                    <li class="skills-li">CSS</li>
+                    <li class="skills-li">JavaScript</li>
+                    <li class="skills-li">React </li>
+                </ul>
+                
+            </div> <!-- close service-->
+
+            <div class="service" >
+                <h3>Education</h3>
+                <ul class="service-list">
+                    <li class="skills-li">
+                        College Of Central Florida -
+                        Associate's Degree 
+                    </li>
+                    <li class="skills-li">Western Governors University -
+                     B.S Computer Science
+                    </li>
+                    <li class="skills-li">Scrimba - Front-End Developer's Path
+                    </li>
+                </ul>
+                
+            </div> <!-- close service-->
+
+            <div class="service" >
+                <h3>Certifications</h3>
+                <ul class="service-list">
+                    <li class="skills-li">ITIL Certified</li>
+                    <li class="skills-li">CompTIA Project+</li>
+                </ul>
+                
+            </div> <!-- close service-->
+        </div>
+
+        <a href="#work" class="btn">My Work</a>
+
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section--title section--title-about"> Who am I</h2>
+        <p class="section--subtitle section--subtitle--about">Front-End Dev based out of Orlando, FL</p>
+
+        <div class="about-me--body">
+            <p>&emsp;&emsp;Hello, my name is Ryan: I am a CS major trying to break into the tech field. I have a passion for
+                learning about new technologies and software. Before I came to know the world of technology,
+                I was a medical major who wanted to become a doctor. During my time in college, I was introduced
+                to software engineering by a fellow student. Since then, I have made it my goal to become a software engineer.</p>
+
+            <p>&emsp;&emsp;I'm a front-end designer, who is extending my insight to turn into a 
+                full-stack engineer. I have experience assembling, keeping up with web applications. 
+                The technologies I use are React, Javascript, CSS, HTM, and GitHub.
+            </p>
+        </div>
+
+        <img src="img/rjb2.png" alt="to be determined" class="about-me--img">
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section--title section--title--work">My Work</h2>
+        <p class="section--subtitle section--subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+
+            <!-- Portfolio item 01 -->
+            <a href="./portfolio-items/tip-calculator.html" class="portfolio--item">
+                <img src="img/portfolio-img-1.jpg" alt="" class="portfolio--img">
+            </a>
+
+            <!-- Portfolio item 02 -->
+            <a href="./portfolio-items/snake-game.html" class="portfolio--item">
+                <img src="img/snake-game.png" alt="" class="portfolio--img">
+            </a>
+
+            <!-- Portfolio item 03 -->
+            <a href="./portfolio-items/quizzical.html" class="portfolio--item">
+                <img src="img/Screenshot (5).png" alt="" class="portfolio--img">
+            </a>
+
+            <!-- Portfolio item 04 -->
+            <a href="./portfolio-items/trivia-game.html" class="portfolio--item">
+                <img src="img/trivia-game.png" alt="" class="portfolio--img">
+            </a>
+
+            <!-- Portfolio item 05 -->
+            <a href="./portfolio-items/weather-app.html" class="portfolio--item">
+                <img src="img/weather.png" alt="" class="portfolio--img">
+            </a>
+
+            <!-- Portfolio item 06 -->
+            <!-- <a href="portfolio-item.html" class="portfolio--item">
+                <img src="img/portfolio-img-1.jpg" alt="" class="portfolio--img">
+            </a> -->
+
+            
+        </div>
+    </section>
+
+
+     <!-- Footer -->
+     <footer class="footer">
+        <a href="#mailto:ryanj0108@yahoo.com" class="footer--link">ryanj0108@yahoo.com</a>
+        <ul class="social-list">
+            <li class="social-list--item">
+                <a class="social-list--link" target="_blank" href="https://www.linkedin.com/in/ryan-boyd-7b21821b0"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+            
+            <li class="social-list--item">
+                <a class="social-list--link" target="_blank" href="https://github.com/avery918"><i class="fab fa-github"></i></a>
+            </li>
+
+            <li class="social-list--item">
+                <a class="social-list--link resume" target="_blank" href="/resume.html">Resume</a>
+            </li>
+        </ul>
+        <a class="to-top" href="#page-logo">Back to top</a>
+    </footer>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
